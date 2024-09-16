@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+@layer components{
+    .link{
+        @apply cursor-pointer hover:underline underline-offset-2 hover:text-white transition-all
+    }
+}
+
+
+
+/* reponsive */
+/* tailwind tu mang hinh nho den mang hinh lon */
+
+/* break point: 640px (sm), 768px (md), 1024 (lg), 1280 (xl), 1536 (2xl) */
+/* 
+   screen:>= 640px
+ */
+ @media screen and (min-width: 640px) {
+    /* CSS */
+    .sub-title{
+        color: red;
+    }
+ }
+
+ 
+ /* 
+   >=768px
+  */
+@media screen and (min-width:768px) {
+    /* CSS */
+    .sub-title{
+        color: green;
+    }
+}
+
+/* screen <= 640px */
+@media screen and (max-width:640px){
+    /* CSS */
+}
