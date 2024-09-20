@@ -110,3 +110,10 @@ git pull --no-ff
 ### git clone <url repo>
 
 => Dùng để clone source code của 1 repo bất kì
+
+
+### git merge <branch>
+merge <branch> vào branch hiện tại
+1. TH1: merge thành công nếu ko có bất kỳ xung đột (conflict)
+2. TH2 : bị xung đột => giải quyết conflict => git add => commit
+=> Nếu merge code mà bị conflict => có thể hủy git merge thông qua lệnh: git merge --abort
