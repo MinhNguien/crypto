@@ -5,3 +5,5 @@
 ### B2: npm start
 
 ### B3: chạy live server
+
+### cai lai node_modules: npm i
