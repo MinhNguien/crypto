@@ -30,3 +30,5 @@ git init
 
  # git add <đường dẫn file> => chỉ thêm file cụ thể vào trong staging
  => Thêm file vào trong staging 
+
+ ### o ba gang nam style 
